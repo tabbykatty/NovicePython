@@ -1,0 +1,53 @@
+print("Welcome to my silly little quiz!")
+
+playing = input("Do you want to play? ")
+
+if playing.lower() != "yes":
+    quit()
+
+print("Okkaaayy!")
+score = 0
+
+answer = input("What is the Capital of Oregon? ")
+if answer.lower() == "salem":
+    print("Yay! You did it :3")
+    score += 1 
+else: 
+    print("Sorry! You are wrong =[")
+    
+answer = input("What year was Britney Spears born in? ")
+if answer ==  "1981":
+    print("Yay! You did it :3")
+    score += 1
+else: 
+    print("Sorry! You are wrong =[")
+    
+answer = input("How many states are in the United States of America? ")
+if answer == "50":
+    print("Yay! You did it uWu")
+    score += 1
+else: 
+    print("Sorry! You are wrong oWo")
+    
+answer = input("What's the best flavor of pie in America? ")
+if answer.lower() == "apple":
+    print("Yes! you are correct! ")
+    score += 1
+else: 
+    print("NO! You are wrong :(((")
+    
+answer = input("Clifford the big ___ dog(fill in the blank) ")
+if answer.lower() == "red":
+    print("Yay! You did it :3")
+    score += 1
+else: 
+    print("Sorry! You are wrong =[")
+    
+answer = input("The best ingredient to use in cake is ____ ")
+if answer.lower()  == "butter":
+    print("Yay! Martha Stewart would be proud!")
+    score += 1
+else: 
+    print("Sorry! You are wrong =[")
+    
+print("You got " + str(score) + " silly little questions correct! Hoozay, you've conquered the village of goofiness!")
